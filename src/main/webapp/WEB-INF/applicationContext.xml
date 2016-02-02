@@ -36,6 +36,7 @@
 		entity-manager-factory-ref="emf" transaction-manager-ref="transactionManager" />
 
 
-
+	<mvc:resources mapping="/resources/**" location="/resources/"  
+	cache-period="31556926"/>
 
 </beans>

@@ -1,2 +1,6 @@
-com\nick\dictionary\service\TestService.class
+com\nick\dictionary\service\UserService.class
 com\nick\dictionary\controller\TestController.class
+com\nick\dictionary\repository\UserRepository.class
+com\nick\dictionary\entity\User.class
+com\nick\dictionary\service\TestService.class
+com\nick\dictionary\controller\UserController.class

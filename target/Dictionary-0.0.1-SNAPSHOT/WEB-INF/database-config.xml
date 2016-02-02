@@ -29,7 +29,7 @@
 	<bean
 		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean"
 		id="emf">
-		<property name="packagesToScan" value="com.nick.dictionary.service"></property>
+		<property name="packagesToScan" value="com.nick.dictionary.entity"></property>
 		<property name="dataSource" ref="dataSource"></property>
 		<property name="jpaProperties">
 			<props>
